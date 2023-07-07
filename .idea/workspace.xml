@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="efaa7969-8adb-4ab4-919a-2b98b765b824" name="Changes" comment="1&#10;Dependencies, typescript, fs-extra, ts-node, etc">
-      <change afterPath="$PROJECT_DIR$/Notpad/.eslintrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Notpad/.prettierrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Notpad/tsconfig.json" afterDir="false" />
+    <list default="true" id="efaa7969-8adb-4ab4-919a-2b98b765b824" name="Changes" comment="2&#10;Dependencies, typescript, fs-extra, ts-node, etc&#10;&#10;Also added text input">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notpad/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Notpad/App.tsx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,7 +46,7 @@
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\benso\\IdeaProjects\\notpad\\Notpad\\node_modules\\typescript\\lib&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\benso\\IdeaProjects\\notpad\\node_modules\\typescript\\lib&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -70,7 +69,8 @@
       <workItem from="1688082530391" duration="4071000" />
       <workItem from="1688086913567" duration="934000" />
       <workItem from="1688162362309" duration="2868000" />
-      <workItem from="1688512168417" duration="1826000" />
+      <workItem from="1688512168417" duration="2245000" />
+      <workItem from="1688682027608" duration="4443000" />
     </task>
     <task id="LOCAL-00001" summary="1&#10;Dependencies, typescript, fs-extra, ts-node, etc">
       <created>1688083491538</created>
@@ -79,11 +79,37 @@
       <option name="project" value="LOCAL" />
       <updated>1688083491538</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2&#10;Dependencies, typescript, fs-extra, ts-node, etc&#10;&#10;Also added text input">
+      <created>1688514409582</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1688514409582</updated>
+    </task>
+    <task id="LOCAL-00003" summary="2&#10;Dependencies, typescript, fs-extra, ts-node, etc&#10;&#10;Also added text input">
+      <created>1688514434917</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1688514434917</updated>
+    </task>
+    <task id="LOCAL-00004" summary="2&#10;Dependencies, typescript, fs-extra, ts-node, etc&#10;&#10;Also added text input">
+      <created>1688514613501</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1688514613501</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/Notpad/App.js" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -98,6 +124,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1&#10;Dependencies, typescript, fs-extra, ts-node, etc" />
-    <option name="LAST_COMMIT_MESSAGE" value="1&#10;Dependencies, typescript, fs-extra, ts-node, etc" />
+    <MESSAGE value="2&#10;Dependencies, typescript, fs-extra, ts-node, etc&#10;&#10;Also added text input" />
+    <option name="LAST_COMMIT_MESSAGE" value="2&#10;Dependencies, typescript, fs-extra, ts-node, etc&#10;&#10;Also added text input" />
   </component>
 </project>

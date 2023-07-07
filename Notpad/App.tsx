@@ -15,10 +15,13 @@ export default function App() {
 }
 
 const TextInputMod = () => {
-  const [value, onChangeText] = React.useState('Useless Multiline Placeholder');
+  const [value, onChangeText] = React.useState('');
 
   // If you type something in the text box that is a color, the background will change to that
   // color.
+
+  // automatically saves text to data in onChangeText?
+
   return (
       <View
           style={{
@@ -29,15 +32,21 @@ const TextInputMod = () => {
         <TextInput
             editable
             multiline
-            numberOfLines={4}
-            maxLength={40}
+            numberOfLines={30}
+            maxLength={2000}
             onChangeText={text => onChangeText(text)}
+            placeholder={'Useless Multiline Placeholder'}
             value={value}
             style={{padding: 10}}
         />
       </View>
   );
 };
+
+function SaveToData(inputText: string) {
+    // take text and save to data automatically (onChangeText?)
+    // localStorage?
+}
 
 
 const styles = StyleSheet.create({
