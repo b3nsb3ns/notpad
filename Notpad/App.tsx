@@ -27,12 +27,12 @@ const TextInputMod = () => {
           style={{
             backgroundColor: value,
             borderBottomColor: '#000000',
-            borderBottomWidth: 1,
+            borderBottomWidth: 0,
           }}>
         <TextInput
             editable
             multiline
-            numberOfLines={30}
+            numberOfLines={100}
             maxLength={2000}
             onChangeText={text => onChangeText(text)}
             placeholder={'Useless Multiline Placeholder'}

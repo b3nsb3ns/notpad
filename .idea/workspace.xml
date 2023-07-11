@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="ChangeListManager">
-    <list default="true" id="efaa7969-8adb-4ab4-919a-2b98b765b824" name="Changes" comment="2&#10;Dependencies, typescript, fs-extra, ts-node, etc&#10;&#10;Also added text input">
+    <list default="true" id="c5ed811d-2c1e-42b6-9a6b-ed4cac065da0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Notpad/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Notpad/App.tsx" afterDir="false" />
     </list>
@@ -13,118 +11,41 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="package.json" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RESET_MODE" value="HARD" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectId" id="2RlQOOB82H0VjYiWtCu92hHHeds" />
+  <component name="ProjectId" id="2SPWA0SCLJITgpxv5MHWpqHYHak" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;run.code.analysis.last.selected.profile&quot;: &quot;pProject Default&quot;,
-    &quot;ts.external.directory.path&quot;: &quot;C:\\Users\\benso\\IdeaProjects\\notpad\\node_modules\\typescript\\lib&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "nodejs_package_manager_path": "yarn",
+    "ts.external.directory.path": "C:\\Users\\benso\\IdeaProjects\\notpad\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\benso\IdeaProjects\notpad\Notpad" />
-      <recent name="C:\Users\benso\IdeaProjects\notpad" />
-    </key>
-  </component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="efaa7969-8adb-4ab4-919a-2b98b765b824" name="Changes" comment="" />
-      <created>1687822154588</created>
+      <changelist id="c5ed811d-2c1e-42b6-9a6b-ed4cac065da0" name="Changes" comment="" />
+      <created>1689048551675</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1687822154588</updated>
-      <workItem from="1687822155876" duration="87000" />
-      <workItem from="1688074813802" duration="621000" />
-      <workItem from="1688082530391" duration="4071000" />
-      <workItem from="1688086913567" duration="934000" />
-      <workItem from="1688162362309" duration="2868000" />
-      <workItem from="1688512168417" duration="2245000" />
-      <workItem from="1688682027608" duration="4443000" />
+      <updated>1689048551675</updated>
+      <workItem from="1689048552937" duration="36000" />
+      <workItem from="1689048590535" duration="1262000" />
     </task>
-    <task id="LOCAL-00001" summary="1&#10;Dependencies, typescript, fs-extra, ts-node, etc">
-      <created>1688083491538</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1688083491538</updated>
-    </task>
-    <task id="LOCAL-00002" summary="2&#10;Dependencies, typescript, fs-extra, ts-node, etc&#10;&#10;Also added text input">
-      <created>1688514409582</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1688514409582</updated>
-    </task>
-    <task id="LOCAL-00003" summary="2&#10;Dependencies, typescript, fs-extra, ts-node, etc&#10;&#10;Also added text input">
-      <created>1688514434917</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1688514434917</updated>
-    </task>
-    <task id="LOCAL-00004" summary="2&#10;Dependencies, typescript, fs-extra, ts-node, etc&#10;&#10;Also added text input">
-      <created>1688514613501</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1688514613501</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-    <option name="exactExcludedFiles">
-      <list>
-        <option value="$PROJECT_DIR$/Notpad/App.js" />
-      </list>
-    </option>
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="1&#10;Dependencies, typescript, fs-extra, ts-node, etc" />
-    <MESSAGE value="2&#10;Dependencies, typescript, fs-extra, ts-node, etc&#10;&#10;Also added text input" />
-    <option name="LAST_COMMIT_MESSAGE" value="2&#10;Dependencies, typescript, fs-extra, ts-node, etc&#10;&#10;Also added text input" />
   </component>
 </project>

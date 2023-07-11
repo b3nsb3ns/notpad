@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/notpad.iml" filepath="$PROJECT_DIR$/notpad.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/notpad.iml" filepath="$PROJECT_DIR$/.idea/notpad.iml" />
     </modules>
   </component>
 </project>
