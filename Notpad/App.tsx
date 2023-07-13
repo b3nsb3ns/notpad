@@ -30,14 +30,14 @@ const TextInputMod = () => {
             borderBottomWidth: 0,
           }}>
         <TextInput
-            editable
-            multiline
-            numberOfLines={100}
+            editable={true}
+            multiline={true}
+            numberOfLines={30}
             maxLength={2000}
             onChangeText={text => onChangeText(text)}
             placeholder={'Useless Multiline Placeholder'}
             value={value}
-            style={{padding: 10}}
+            style={{}}
         />
       </View>
   );
@@ -53,7 +53,6 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    alignItems: 'stretch',
   },
 });
