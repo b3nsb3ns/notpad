@@ -14,6 +14,7 @@ export default function App() {
   );
 }
 
+// text input box
 const TextInputMod = () => {
   const [value, onChangeText] = React.useState('');
 
@@ -28,6 +29,7 @@ const TextInputMod = () => {
             backgroundColor: value,
             borderBottomColor: '#000000',
             borderBottomWidth: 0,
+            padding: 10,
           }}>
         <TextInput
             editable={true}
@@ -54,5 +56,6 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: '#fff',
     alignItems: 'stretch',
+    flexDirection: 'column'
   },
 });
