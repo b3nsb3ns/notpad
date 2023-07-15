@@ -7,7 +7,16 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Text>Anyone in here got blackops? now with typescript</Text>
+      <View>
+          style={{
+          backgroundColor: '#111111',
+          borderBottomColor: '#000000',
+          borderBottomWidth: 0,
+          padding: 10,
+          flex: 1,
+      }}>
+          <Text>Anyone in here got blackops? now with typescript</Text>
+      </View>
       <TextInputMod/>
       <StatusBar style="auto" />
     </View>
@@ -30,6 +39,7 @@ const TextInputMod = () => {
             borderBottomColor: '#000000',
             borderBottomWidth: 0,
             padding: 10,
+            flex: 6,
           }}>
         <TextInput
             editable={true}

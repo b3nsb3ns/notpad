@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5ed811d-2c1e-42b6-9a6b-ed4cac065da0" name="Changes" comment="5&#10;&#10;Aligned components to left side.">
+    <list default="true" id="c5ed811d-2c1e-42b6-9a6b-ed4cac065da0" name="Changes" comment="6&#10;&#10;added flexDirection to primary View">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Notpad/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Notpad/App.tsx" afterDir="false" />
     </list>
@@ -49,7 +49,8 @@
       <workItem from="1689048552937" duration="36000" />
       <workItem from="1689048590535" duration="1545000" />
       <workItem from="1689204143594" duration="3864000" />
-      <workItem from="1689296024147" duration="2104000" />
+      <workItem from="1689296024147" duration="2168000" />
+      <workItem from="1689378791123" duration="871000" />
     </task>
     <task id="LOCAL-00001" summary="4&#10;&#10;Attempt to change inputtext box attributes (it didnt work)&#10;&#10;Came across strange issue w/ missing files, dependencies. Had to re-clone and re-install dependencies.&#10;&#10;Start w/ expo start (yarn start doesnt work anymore?)">
       <created>1689050029702</created>
@@ -65,7 +66,21 @@
       <option name="project" value="LOCAL" />
       <updated>1689208126874</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="6&#10;&#10;added flexDirection to primary View">
+      <created>1689309533751</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1689309533751</updated>
+    </task>
+    <task id="LOCAL-00004" summary="6&#10;&#10;added flexDirection to primary View">
+      <created>1689309554825</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1689309554825</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -74,6 +89,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="4&#10;&#10;Attempt to change inputtext box attributes (it didnt work)&#10;&#10;Came across strange issue w/ missing files, dependencies. Had to re-clone and re-install dependencies.&#10;&#10;Start w/ expo start (yarn start doesnt work anymore?)" />
     <MESSAGE value="5&#10;&#10;Aligned components to left side." />
-    <option name="LAST_COMMIT_MESSAGE" value="5&#10;&#10;Aligned components to left side." />
+    <MESSAGE value="6&#10;&#10;added flexDirection to primary View" />
+    <option name="LAST_COMMIT_MESSAGE" value="6&#10;&#10;added flexDirection to primary View" />
   </component>
 </project>
