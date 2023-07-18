@@ -4,20 +4,21 @@ import { StyleSheet, Text, View, TextInput } from 'react-native';
 
 export default function App() {
   const variable: string = "variable";
+  const [value, onChangeText] = React.useState('');
 
   return (
     <View style={styles.container}>
-      <View>
-          style={{
-          backgroundColor: '#111111',
-          borderBottomColor: '#000000',
-          borderBottomWidth: 0,
-          padding: 10,
-          flex: 1,
-      }}>
-          <Text>Anyone in here got blackops? now with typescript</Text>
-      </View>
-      <TextInputMod/>
+      <Text>Anyone in here got blackops? now with typescript</Text>
+      <TextInput
+         editable={true}
+         multiline={true}
+         numberOfLines={10}
+         maxLength={2000}
+         onChangeText={text => onChangeText(text)}
+         placeholder={'Useless Multiline Placeholder'}
+         value={value}
+         style={{}}
+      />
       <StatusBar style="auto" />
     </View>
   );
@@ -36,7 +37,7 @@ const TextInputMod = () => {
       <View
           style={{
             backgroundColor: value,
-            borderBottomColor: '#000000',
+            borderBottomColor: '#111111',
             borderBottomWidth: 0,
             padding: 10,
             flex: 6,
