@@ -8,18 +8,28 @@ export default function App() {
 
   return (
     <View style={styles.container}>
-      <Text>Anyone in here got blackops? now with typescript</Text>
-      <TextInput
-         editable={true}
-         multiline={true}
-         numberOfLines={10}
-         maxLength={2000}
-         onChangeText={text => onChangeText(text)}
-         placeholder={'Useless Multiline Placeholder'}
-         value={value}
-         style={{}}
-      />
       <StatusBar style="auto" />
+
+      <View style={{}}>
+        <Text>Anyone in here got blackops? now with typescript</Text>
+      </View>
+
+      <View style={{
+          backgroundColor: value,
+          borderBottomColor: '#111111',
+          borderBottomWidth: 0,
+      }}>
+        <TextInput
+          editable={true}
+          multiline={true}
+          numberOfLines={10}
+          maxLength={2000}
+          onChangeText={text => onChangeText(text)}
+          placeholder={'Useless Multiline Placeholder'}
+          value={value}
+          style={{}}
+        />
+      </View>
     </View>
   );
 }
