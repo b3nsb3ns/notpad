@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5ed811d-2c1e-42b6-9a6b-ed4cac065da0" name="Changes" comment="8&#10;&#10;moved up stuff in textinput method to App()&#10;&#10;MUCH easier to manipulate">
+    <list default="true" id="c5ed811d-2c1e-42b6-9a6b-ed4cac065da0" name="Changes" comment="9&#10;&#10;Put text thingies in Views, should be lookin good now&#10;&#10;use 'npx expo start'">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Notpad/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Notpad/App.tsx" afterDir="false" />
     </list>
@@ -52,7 +52,8 @@
       <workItem from="1689296024147" duration="2168000" />
       <workItem from="1689378791123" duration="1028000" />
       <workItem from="1689634991512" duration="1624000" />
-      <workItem from="1689737594490" duration="1555000" />
+      <workItem from="1689737594490" duration="1873000" />
+      <workItem from="1689821120855" duration="1397000" />
     </task>
     <task id="LOCAL-00001" summary="4&#10;&#10;Attempt to change inputtext box attributes (it didnt work)&#10;&#10;Came across strange issue w/ missing files, dependencies. Had to re-clone and re-install dependencies.&#10;&#10;Start w/ expo start (yarn start doesnt work anymore?)">
       <created>1689050029702</created>
@@ -96,7 +97,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689640087903</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="9&#10;&#10;Put text thingies in Views, should be lookin good now&#10;&#10;use 'npx expo start'">
+      <created>1689739461969</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1689739461969</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -108,6 +116,7 @@
     <MESSAGE value="6&#10;&#10;added flexDirection to primary View" />
     <MESSAGE value="7&#10;&#10;Changed components layout w/ added view in App()&#10;&#10;(has not been tested yet)" />
     <MESSAGE value="8&#10;&#10;moved up stuff in textinput method to App()&#10;&#10;MUCH easier to manipulate" />
-    <option name="LAST_COMMIT_MESSAGE" value="8&#10;&#10;moved up stuff in textinput method to App()&#10;&#10;MUCH easier to manipulate" />
+    <MESSAGE value="9&#10;&#10;Put text thingies in Views, should be lookin good now&#10;&#10;use 'npx expo start'" />
+    <option name="LAST_COMMIT_MESSAGE" value="9&#10;&#10;Put text thingies in Views, should be lookin good now&#10;&#10;use 'npx expo start'" />
   </component>
 </project>

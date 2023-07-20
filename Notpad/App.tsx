@@ -10,13 +10,17 @@ export default function App() {
     <View style={styles.container}>
       <StatusBar style="auto" />
 
-      <View style={{}}>
+      <View style={{
+          flex: 1,
+          backgroundColor: '#bbee33',
+      }}>
         <Text>Anyone in here got blackops? now with typescript</Text>
       </View>
 
       <View style={{
+          flex: 14,
           backgroundColor: value,
-          borderBottomColor: '#111111',
+          borderBottomColor: '#aaaaaa',
           borderBottomWidth: 0,
       }}>
         <TextInput
@@ -26,6 +30,7 @@ export default function App() {
           maxLength={2000}
           onChangeText={text => onChangeText(text)}
           placeholder={'Useless Multiline Placeholder'}
+          textAlignVertical={'top'}
           value={value}
           style={{}}
         />
