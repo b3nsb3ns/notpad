@@ -3,7 +3,7 @@ import React from 'react';
 import { StyleSheet, Text, View, TextInput } from 'react-native';
 
 export default function App() {
-  const variable: string = "variable";
+  const topBarText: string = 'Anyone in here got blackops? now with typescript';
   const [value, onChangeText] = React.useState('');
 
   return (
@@ -14,11 +14,15 @@ export default function App() {
           flex: 1,
           backgroundColor: '#bbee33',
       }}>
-        <Text>Anyone in here got blackops? now with typescript</Text>
+        <Text style={styles.baseText}>
+            {'\n'}
+            {'\n'}
+            {topBarText}
+        </Text>
       </View>
 
       <View style={{
-          flex: 14,
+          flex: 11,
           backgroundColor: value,
           borderBottomColor: '#aaaaaa',
           borderBottomWidth: 0,
@@ -41,7 +45,7 @@ export default function App() {
 
 // text input box
 const TextInputMod = () => {
-  const [value, onChangeText] = React.useState('');
+  const [value, onChangeText] = React.useState('\n');
 
   // If you type something in the text box that is a color, the background will change to that
   // color.
@@ -83,5 +87,8 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'stretch',
     flexDirection: 'column'
+  },
+  baseText: {
+    fontSize: 18,
   },
 });
