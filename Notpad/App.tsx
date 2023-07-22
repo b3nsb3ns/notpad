@@ -3,8 +3,9 @@ import React from 'react';
 import { StyleSheet, Text, View, TextInput } from 'react-native';
 
 export default function App() {
-  const topBarText: string = 'Anyone in here got blackops? now with typescript';
+  const topBarText: string = ' Anyone in here got blackops? now with typescript';
   const [value, onChangeText] = React.useState('');
+  const backgroundColour: string = '#353935';
 
   return (
     <View style={styles.container}>
@@ -23,20 +24,24 @@ export default function App() {
 
       <View style={{
           flex: 11,
-          backgroundColor: value,
+          backgroundColor: backgroundColour,
           borderBottomColor: '#aaaaaa',
-          borderBottomWidth: 0,
+          borderBottomWidth: 12,
       }}>
         <TextInput
+          style={{
+              margin: 12,
+              color: '#f1f1f1',
+          }}
           editable={true}
           multiline={true}
-          numberOfLines={10}
+          numberOfLines={51}
           maxLength={2000}
           onChangeText={text => onChangeText(text)}
           placeholder={'Useless Multiline Placeholder'}
+          placeholderTextColor={'#bbbbbb'}
           textAlignVertical={'top'}
           value={value}
-          style={{}}
         />
       </View>
     </View>
