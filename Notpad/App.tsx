@@ -25,8 +25,8 @@ export default function App() {
       <View style={{
           flex: 11,
           backgroundColor: backgroundColour,
-          borderBottomColor: '#aaaaaa',
-          borderBottomWidth: 12,
+          borderBottomColor: '#60966f',
+          borderBottomWidth: 5,
       }}>
         <TextInput
           style={{
@@ -38,7 +38,7 @@ export default function App() {
           numberOfLines={51}
           maxLength={2000}
           onChangeText={text => onChangeText(text)}
-          placeholder={'Useless Multiline Placeholder'}
+          placeholder={'Write here, bighead'}
           placeholderTextColor={'#bbbbbb'}
           textAlignVertical={'top'}
           value={value}
@@ -47,38 +47,6 @@ export default function App() {
     </View>
   );
 }
-
-// text input box
-const TextInputMod = () => {
-  const [value, onChangeText] = React.useState('\n');
-
-  // If you type something in the text box that is a color, the background will change to that
-  // color.
-
-  // automatically saves text to data in onChangeText?
-
-  return (
-      <View
-          style={{
-            backgroundColor: value,
-            borderBottomColor: '#111111',
-            borderBottomWidth: 0,
-            padding: 10,
-            flex: 6,
-          }}>
-        <TextInput
-            editable={true}
-            multiline={true}
-            numberOfLines={30}
-            maxLength={2000}
-            onChangeText={text => onChangeText(text)}
-            placeholder={'Useless Multiline Placeholder'}
-            value={value}
-            style={{}}
-        />
-      </View>
-  );
-};
 
 function SaveToData(inputText: string) {
     // take text and save to data automatically (onChangeText?)

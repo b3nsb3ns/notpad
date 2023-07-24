@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5ed811d-2c1e-42b6-9a6b-ed4cac065da0" name="Changes" comment="11&#10;&#10;Played around w/ top bar, maybe needs buffer bt top bar and input area?">
+    <list default="true" id="c5ed811d-2c1e-42b6-9a6b-ed4cac065da0" name="Changes" comment="12&#10;&#10;Added margins, dark mode">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Notpad/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Notpad/App.tsx" afterDir="false" />
     </list>
@@ -55,7 +55,8 @@
       <workItem from="1689737594490" duration="1873000" />
       <workItem from="1689821120855" duration="1673000" />
       <workItem from="1689906365798" duration="1638000" />
-      <workItem from="1689985521598" duration="2985000" />
+      <workItem from="1689985521598" duration="3031000" />
+      <workItem from="1690239026347" duration="1909000" />
     </task>
     <task id="LOCAL-00001" summary="4&#10;&#10;Attempt to change inputtext box attributes (it didnt work)&#10;&#10;Came across strange issue w/ missing files, dependencies. Had to re-clone and re-install dependencies.&#10;&#10;Start w/ expo start (yarn start doesnt work anymore?)">
       <created>1689050029702</created>
@@ -120,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689908009811</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="12&#10;&#10;Added margins, dark mode">
+      <created>1689998640992</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1689998640992</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +143,7 @@
     <MESSAGE value="9&#10;&#10;Put text thingies in Views, should be lookin good now&#10;&#10;use 'npx expo start'" />
     <MESSAGE value="10&#10;&#10;Added flex, and aligned text in textbox to top left" />
     <MESSAGE value="11&#10;&#10;Played around w/ top bar, maybe needs buffer bt top bar and input area?" />
-    <option name="LAST_COMMIT_MESSAGE" value="11&#10;&#10;Played around w/ top bar, maybe needs buffer bt top bar and input area?" />
+    <MESSAGE value="12&#10;&#10;Added margins, dark mode" />
+    <option name="LAST_COMMIT_MESSAGE" value="12&#10;&#10;Added margins, dark mode" />
   </component>
 </project>
