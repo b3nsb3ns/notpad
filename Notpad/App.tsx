@@ -1,11 +1,18 @@
 import { StatusBar } from 'expo-status-bar';
-import React from 'react';
+import React, {useEffect} from 'react';
 import { StyleSheet, Text, View, TextInput } from 'react-native';
 
 export default function App() {
   const topBarText: string = ' Anyone in here got blackops? now with typescript';
-  const [value, onChangeText] = React.useState('');
+  const [text, onChangeText] = React.useState('');
   const backgroundColour: string = '#353935';
+
+  // useEffect(() => {
+  //     // storing input name
+  //     localStorage.setItem("value", JSON.stringify(value));
+  // }, [value]);
+
+  // localStorage.setItem('savedText', text);
 
   return (
     <View style={styles.container}>
@@ -41,7 +48,7 @@ export default function App() {
           placeholder={'Write here, bighead'}
           placeholderTextColor={'#bbbbbb'}
           textAlignVertical={'top'}
-          value={value}
+          value={text}
         />
       </View>
     </View>
@@ -51,6 +58,10 @@ export default function App() {
 function SaveToData(inputText: string) {
     // take text and save to data automatically (onChangeText?)
     // localStorage?
+    useEffect(() => {
+        // storing input name
+        localStorage.setItem("name", JSON.stringify(name));
+    }, [name]);
 }
 
 
