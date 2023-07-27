@@ -7,10 +7,15 @@ export default function App() {
   const [text, onChangeText] = React.useState('');
   const backgroundColour: string = '#353935';
 
+  // if (typeof window !== 'undefined') {
+  //     // Perform localStorage action
+  //     const item = localStorage.setItem("value", JSON.stringify(text));
+  // }
+
   // useEffect(() => {
   //     // storing input name
-  //     localStorage.setItem("value", JSON.stringify(value));
-  // }, [value]);
+  //     const item = localStorage.setItem("value", JSON.stringify(text));
+  // }, [text]);
 
   // localStorage.setItem('savedText', text);
 
