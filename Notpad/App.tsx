@@ -1,23 +1,33 @@
 import { StatusBar } from 'expo-status-bar';
 import React, {useEffect} from 'react';
 import { StyleSheet, Text, View, TextInput } from 'react-native';
+import AsyncStorage from "@react-native-async-storage/async-storage";
 
 export default function App() {
   const topBarText: string = ' Anyone in here got blackops? now with typescript';
   const [text, onChangeText] = React.useState('');
   const backgroundColour: string = '#353935';
 
-  // if (typeof window !== 'undefined') {
-  //     // Perform localStorage action
-  //     const item = localStorage.setItem("value", JSON.stringify(text));
-  // }
+    const storeUser = async () => {
+        try {
+            await AsyncStorage.setItem("user", JSON.stringify(text));
+        } catch (error) {
+            console.log(error);
+        }
+    };
 
-  // useEffect(() => {
-  //     // storing input name
-  //     const item = localStorage.setItem("value", JSON.stringify(text));
-  // }, [text]);
-
-  // localStorage.setItem('savedText', text);
+    const getUser = async () => {
+        try {
+            const savedUser = await AsyncStorage.getItem("user");
+            let currentUser;
+            if (typeof savedUser === "string") {
+                currentUser = JSON.parse(savedUser);
+            }
+            console.log(currentUser);
+        } catch (error) {
+            console.log(error);
+        }
+    };
 
   return (
     <View style={styles.container}>
@@ -53,6 +63,7 @@ export default function App() {
           placeholder={'Write here, bighead'}
           placeholderTextColor={'#bbbbbb'}
           textAlignVertical={'top'}
+          selectionColor={'#bbee33'}
           value={text}
         />
       </View>
