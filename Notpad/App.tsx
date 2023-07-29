@@ -4,22 +4,12 @@ import { StyleSheet, Text, View, TextInput } from 'react-native';
 import AsyncStorage from "@react-native-async-storage/async-storage";
 
 export default function App() {
-  const topBarText: string = ' Anyone in here got blackops? now with typescript';
-  const [text, onChangeText] = React.useState('');
-  const backgroundColour: string = '#353935';
 
-    const storeUser = async () => {
-        try {
-            await AsyncStorage.setItem("user", JSON.stringify(text));
-        } catch (error) {
-            console.log(error);
-        }
-    };
-
+    let currentUser: string;
     const getUser = async () => {
         try {
             const savedUser = await AsyncStorage.getItem("user");
-            let currentUser;
+
             if (typeof savedUser === "string") {
                 currentUser = JSON.parse(savedUser);
             }
@@ -28,6 +18,21 @@ export default function App() {
             console.log(error);
         }
     };
+
+  const topBarText: string = ' Anyone in here got blackops? now with typescript';
+  const [text, onChangeText] = React.useState(currentUser);
+  const backgroundColour: string = '#353935';
+
+    const storeUser = async (textToSave: string) => {
+        onChangeText(textToSave);
+        try {
+            await AsyncStorage.setItem("user", JSON.stringify(textToSave));
+        } catch (error) {
+            console.log(error);
+        }
+    };
+
+
 
   return (
     <View style={styles.container}>
@@ -59,7 +64,7 @@ export default function App() {
           multiline={true}
           numberOfLines={51}
           maxLength={2000}
-          onChangeText={text => onChangeText(text)}
+          onChangeText={text => storeUser(text)}
           placeholder={'Write here, bighead'}
           placeholderTextColor={'#bbbbbb'}
           textAlignVertical={'top'}
