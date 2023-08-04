@@ -2,37 +2,36 @@ import { StatusBar } from 'expo-status-bar';
 import React, {useEffect} from 'react';
 import { StyleSheet, Text, View, TextInput } from 'react-native';
 import AsyncStorage from "@react-native-async-storage/async-storage";
+import {get} from "react-native/Libraries/TurboModule/TurboModuleRegistry";
 
 export default function App() {
 
-    let currentUser: string;
-    const getUser = async () => {
-        try {
-            const savedUser = await AsyncStorage.getItem("user");
-
-            if (typeof savedUser === "string") {
-                currentUser = JSON.parse(savedUser);
-            }
-            console.log(currentUser);
-        } catch (error) {
-            console.log(error);
-        }
-    };
-
   const topBarText: string = ' Anyone in here got blackops? now with typescript';
-  const [text, onChangeText] = React.useState(currentUser);
+  const [text, onChangeText] = React.useState('');
   const backgroundColour: string = '#353935';
 
-    const storeUser = async (textToSave: string) => {
-        onChangeText(textToSave);
-        try {
-            await AsyncStorage.setItem("user", JSON.stringify(textToSave));
-        } catch (error) {
-            console.log(error);
-        }
-    };
+  const saveText = async () => {
+      try {
+          await AsyncStorage.setItem('textToSave', text);
+          // console.log(text[text.length - 1]);
+      } catch (error) {
+          console.log(error);
+      }
+  }
 
+  const getText = async () => {
+      try {
+          const prevText = await AsyncStorage.getItem('textToSave');
+          onChangeText(prevText);
+          // console.log(prevText);
+      } catch (error) {
+          console.log(error);
+      }
+  }
 
+  React.useEffect(() => {
+      getText();
+  }, []);
 
   return (
     <View style={styles.container}>
@@ -64,7 +63,8 @@ export default function App() {
           multiline={true}
           numberOfLines={51}
           maxLength={2000}
-          onChangeText={text => storeUser(text)}
+          onChange={saveText}
+          onChangeText={text => onChangeText(text)}
           placeholder={'Write here, bighead'}
           placeholderTextColor={'#bbbbbb'}
           textAlignVertical={'top'}
@@ -75,16 +75,6 @@ export default function App() {
     </View>
   );
 }
-
-function SaveToData(inputText: string) {
-    // take text and save to data automatically (onChangeText?)
-    // localStorage?
-    useEffect(() => {
-        // storing input name
-        localStorage.setItem("name", JSON.stringify(name));
-    }, [name]);
-}
-
 
 const styles = StyleSheet.create({
   container: {
