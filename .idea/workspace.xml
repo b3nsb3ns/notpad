@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5ed811d-2c1e-42b6-9a6b-ed4cac065da0" name="Changes" comment="17&#10;&#10;Idk whats wrong it just doesnt save">
+    <list default="true" id="c5ed811d-2c1e-42b6-9a6b-ed4cac065da0" name="Changes" comment="18&#10;&#10;it saves now! but not the last character">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Notpad/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Notpad/App.tsx" afterDir="false" />
     </list>
@@ -63,7 +63,9 @@
       <workItem from="1690599047753" duration="1543000" />
       <workItem from="1690844304275" duration="2549000" />
       <workItem from="1691021794347" duration="407000" />
-      <workItem from="1691103955324" duration="4920000" />
+      <workItem from="1691103955324" duration="5218000" />
+      <workItem from="1691122402074" duration="8000" />
+      <workItem from="1691190194886" duration="4454000" />
     </task>
     <task id="LOCAL-00001" summary="4&#10;&#10;Attempt to change inputtext box attributes (it didnt work)&#10;&#10;Came across strange issue w/ missing files, dependencies. Had to re-clone and re-install dependencies.&#10;&#10;Start w/ expo start (yarn start doesnt work anymore?)">
       <created>1689050029702</created>
@@ -170,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1690600596422</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="18&#10;&#10;it saves now! but not the last character">
+      <created>1691122374599</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1691122374599</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -191,6 +200,7 @@
     <MESSAGE value="15&#10;&#10;use asyncstorage instead of localStorage&#10;&#10;https://reactnative.dev/docs/asyncstorage" />
     <MESSAGE value="16 &#10;&#10;Added asyncstorage, but i feel like they should be in the actual component as it doesnt work atm" />
     <MESSAGE value="17&#10;&#10;Idk whats wrong it just doesnt save" />
-    <option name="LAST_COMMIT_MESSAGE" value="17&#10;&#10;Idk whats wrong it just doesnt save" />
+    <MESSAGE value="18&#10;&#10;it saves now! but not the last character" />
+    <option name="LAST_COMMIT_MESSAGE" value="18&#10;&#10;it saves now! but not the last character" />
   </component>
 </project>

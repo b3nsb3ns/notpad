@@ -14,6 +14,7 @@ export default function App() {
       try {
           await AsyncStorage.setItem('textToSave', text);
           // console.log(text[text.length - 1]);
+          console.log(text);
       } catch (error) {
           console.log(error);
       }
@@ -21,9 +22,13 @@ export default function App() {
 
   const getText = async () => {
       try {
-          const prevText = await AsyncStorage.getItem('textToSave');
-          onChangeText(prevText);
+          // const prevText = await AsyncStorage.getItem('textToSave');
+          // onChangeText(prevText);
           // console.log(prevText);
+          let prevText = await AsyncStorage.getItem('textToSave');
+          if (prevText !== null) {
+              onChangeText(prevText);
+          }
       } catch (error) {
           console.log(error);
       }
@@ -51,7 +56,7 @@ export default function App() {
       <View style={{
           flex: 11,
           backgroundColor: backgroundColour,
-          borderBottomColor: '#60966f',
+          borderBottomColor: '#a6e3b9',
           borderBottomWidth: 5,
       }}>
         <TextInput
