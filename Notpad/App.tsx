@@ -1,20 +1,28 @@
 import { StatusBar } from 'expo-status-bar';
-import React, {useEffect} from 'react';
-import { StyleSheet, Text, View, TextInput } from 'react-native';
+import React, {useEffect, useRef} from 'react';
+import {StyleSheet, Text, View, TextInput, Button} from 'react-native';
 import AsyncStorage from "@react-native-async-storage/async-storage";
 import {get} from "react-native/Libraries/TurboModule/TurboModuleRegistry";
 
 export default function App() {
 
+  const topBarColour: string = '#bbee33'; // top bar stuff
   const topBarText: string = ' Anyone in here got blackops? now with typescript';
+
+  const saveButtonColour: string = '#40e0d0'; // save button stuff
+  const unsavedSaveText: string = 'Press here to SAVE';
+  const [saveButton, saveButtonPressed] = React.useState(unsavedSaveText);
+  const storageKey: string = 'textToSave';
+
+  const backgroundColour: string = '#353935'; // textinput stuff
   const [text, onChangeText] = React.useState('');
-  const backgroundColour: string = '#353935';
 
   const saveText = async () => {
       try {
-          await AsyncStorage.setItem('textToSave', text);
+          await AsyncStorage.setItem(storageKey, text);
+          saveButtonPressed('SAVED');
           // console.log(text[text.length - 1]);
-          console.log(text);
+          // console.log(text);
       } catch (error) {
           console.log(error);
       }
@@ -25,13 +33,17 @@ export default function App() {
           // const prevText = await AsyncStorage.getItem('textToSave');
           // onChangeText(prevText);
           // console.log(prevText);
-          let prevText = await AsyncStorage.getItem('textToSave');
+          const prevText = await AsyncStorage.getItem(storageKey);
           if (prevText !== null) {
               onChangeText(prevText);
           }
       } catch (error) {
           console.log(error);
       }
+  }
+
+  const setButtonUnsaved = () => {
+      saveButtonPressed(unsavedSaveText);
   }
 
   React.useEffect(() => {
@@ -44,13 +56,21 @@ export default function App() {
 
       <View style={{
           flex: 1,
-          backgroundColor: '#bbee33',
+          backgroundColor: topBarColour,
       }}>
         <Text style={styles.baseText}>
             {'\n'}
             {'\n'}
             {topBarText}
         </Text>
+      </View>
+
+      <View>
+          <Button
+              title={saveButton}
+              color={saveButtonColour}
+              onPress={saveText}
+          />
       </View>
 
       <View style={{
@@ -68,12 +88,12 @@ export default function App() {
           multiline={true}
           numberOfLines={51}
           maxLength={2000}
-          onChange={saveText}
-          onChangeText={text => onChangeText(text)}
+          onChange={setButtonUnsaved}
+          onChangeText={inputText => onChangeText(inputText)}
           placeholder={'Write here, bighead'}
           placeholderTextColor={'#bbbbbb'}
           textAlignVertical={'top'}
-          selectionColor={'#bbee33'}
+          selectionColor={topBarColour}
           value={text}
         />
       </View>

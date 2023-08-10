@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5ed811d-2c1e-42b6-9a6b-ed4cac065da0" name="Changes" comment="18&#10;&#10;it saves now! but not the last character">
+    <list default="true" id="c5ed811d-2c1e-42b6-9a6b-ed4cac065da0" name="Changes" comment="19&#10;&#10;something wrong w/ setitem causing last char to not save. bookmarked potential soln">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Notpad/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Notpad/App.tsx" afterDir="false" />
     </list>
@@ -65,7 +65,9 @@
       <workItem from="1691021794347" duration="407000" />
       <workItem from="1691103955324" duration="5218000" />
       <workItem from="1691122402074" duration="8000" />
-      <workItem from="1691190194886" duration="4454000" />
+      <workItem from="1691190194886" duration="4505000" />
+      <workItem from="1691452151395" duration="9777000" />
+      <workItem from="1691551008689" duration="5630000" />
     </task>
     <task id="LOCAL-00001" summary="4&#10;&#10;Attempt to change inputtext box attributes (it didnt work)&#10;&#10;Came across strange issue w/ missing files, dependencies. Had to re-clone and re-install dependencies.&#10;&#10;Start w/ expo start (yarn start doesnt work anymore?)">
       <created>1689050029702</created>
@@ -179,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691122374599</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="19&#10;&#10;something wrong w/ setitem causing last char to not save. bookmarked potential soln">
+      <created>1691194727327</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1691194727327</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -201,6 +210,7 @@
     <MESSAGE value="16 &#10;&#10;Added asyncstorage, but i feel like they should be in the actual component as it doesnt work atm" />
     <MESSAGE value="17&#10;&#10;Idk whats wrong it just doesnt save" />
     <MESSAGE value="18&#10;&#10;it saves now! but not the last character" />
-    <option name="LAST_COMMIT_MESSAGE" value="18&#10;&#10;it saves now! but not the last character" />
+    <MESSAGE value="19&#10;&#10;something wrong w/ setitem causing last char to not save. bookmarked potential soln" />
+    <option name="LAST_COMMIT_MESSAGE" value="19&#10;&#10;something wrong w/ setitem causing last char to not save. bookmarked potential soln" />
   </component>
 </project>
