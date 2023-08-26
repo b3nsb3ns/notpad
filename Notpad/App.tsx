@@ -1,8 +1,7 @@
 import { StatusBar } from 'expo-status-bar';
-import React, {useEffect, useRef} from 'react';
+import React from 'react';
 import {StyleSheet, Text, View, TextInput, Button} from 'react-native';
 import AsyncStorage from "@react-native-async-storage/async-storage";
-import {get} from "react-native/Libraries/TurboModule/TurboModuleRegistry";
 
 export default function App() {
 

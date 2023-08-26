@@ -4,9 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c5ed811d-2c1e-42b6-9a6b-ed4cac065da0" name="Changes" comment="19&#10;&#10;something wrong w/ setitem causing last char to not save. bookmarked potential soln">
+    <list default="true" id="c5ed811d-2c1e-42b6-9a6b-ed4cac065da0" name="Changes" comment="20&#10;&#10;added save button">
+      <change afterPath="$PROJECT_DIR$/Notpad/eas.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notpad/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/Notpad/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Notpad/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/Notpad/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notpad/app.json" beforeDir="false" afterPath="$PROJECT_DIR$/Notpad/app.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notpad/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Notpad/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notpad/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/Notpad/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Notpad/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Notpad/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +73,10 @@
       <workItem from="1691122402074" duration="8000" />
       <workItem from="1691190194886" duration="4505000" />
       <workItem from="1691452151395" duration="9777000" />
-      <workItem from="1691551008689" duration="5630000" />
+      <workItem from="1691551008689" duration="5716000" />
+      <workItem from="1692591867733" duration="665000" />
+      <workItem from="1692661352282" duration="3609000" />
+      <workItem from="1693093340442" duration="561000" />
     </task>
     <task id="LOCAL-00001" summary="4&#10;&#10;Attempt to change inputtext box attributes (it didnt work)&#10;&#10;Came across strange issue w/ missing files, dependencies. Had to re-clone and re-install dependencies.&#10;&#10;Start w/ expo start (yarn start doesnt work anymore?)">
       <created>1689050029702</created>
@@ -188,7 +197,14 @@
       <option name="project" value="LOCAL" />
       <updated>1691194727327</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="20&#10;&#10;added save button">
+      <created>1691637602377</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1691637602377</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,6 +227,7 @@
     <MESSAGE value="17&#10;&#10;Idk whats wrong it just doesnt save" />
     <MESSAGE value="18&#10;&#10;it saves now! but not the last character" />
     <MESSAGE value="19&#10;&#10;something wrong w/ setitem causing last char to not save. bookmarked potential soln" />
-    <option name="LAST_COMMIT_MESSAGE" value="19&#10;&#10;something wrong w/ setitem causing last char to not save. bookmarked potential soln" />
+    <MESSAGE value="20&#10;&#10;added save button" />
+    <option name="LAST_COMMIT_MESSAGE" value="20&#10;&#10;added save button" />
   </component>
 </project>
